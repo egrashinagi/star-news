@@ -1,0 +1,10 @@
+{
+  "name": "test_task_star_news",
+  "version": "0.1.0",
+  "description": "task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egrashina Galina <gegrashina@gmail.com>",
+  "license": "ISC"
+}
