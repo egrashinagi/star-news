@@ -86,7 +86,7 @@ body {
 }
 
 .header__center-titles-text_num {
-   font-size: 115px;
+    font-size: 115px;
     color: #fff;
 
 }
@@ -97,3 +97,77 @@ body {
     /*width: 20%;*/
     width: 300px;
 }
+
+/*CONTENT*/
+
+.content {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.content__left {
+    width: 300px;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10px 0 10px;
+}
+
+.content__main-title {
+    color: #1e1e1e;
+    /*font-size: 26px;*/
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.content__main-title_middle {
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: none;
+}
+
+.content__main-title_bold {
+    font-weight: bold;
+    text-transform: none;
+}
+
+.content__main-text {
+    font-size: 15px;
+}
+
+.content__main-text_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content__main-text-list {
+    background-color: #5aafbd;
+    color: #fff;
+}
+
+.content__main-text-list-item {
+    padding: 10px;
+}
+
+.content__main-text_list-item_white {
+    list-style: armenian;
+}
+
+.content__main-text-item {
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+.content__main-text-item:before {
+    content: url("images/icon.png");
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: #0397af;
+}
+
