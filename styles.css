@@ -88,11 +88,8 @@ body {
 
 .content {
     display: flex;
+    justify-content: center;
     flex-shrink: 0;
-}
-
-.content__left {
-    width: 300px;
 }
 
 .content__main {
