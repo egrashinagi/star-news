@@ -160,5 +160,27 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    background-color: #ededed;
+    border: 1px solid #d3d3d3;
+
+}
+
+.content__main-info-icon {
+    display: flex;
+   justify-content: center;
+}
+
+.content__main-info-button {
+    background-color: #5aafbd;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
 }
 
