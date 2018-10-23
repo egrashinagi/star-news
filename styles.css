@@ -19,10 +19,12 @@ body {
     justify-content: center;
 
     width: 100%;
+    height: 290px;
 }
 
 .header__center {
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
     width: 100%;
     background-color: #fca4bd;
@@ -32,8 +34,6 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-
-    padding: 50px;
 }
 
 .header__center-titles-text {
@@ -49,8 +49,10 @@ body {
 
     background-color: #fff;
 
-    padding: 15px;
+    padding: 10px;
+    margin: 10px 10px 10px 60px;
     height: 35px;
+    width: 150px;
 }
 
 .header__center-titles-text_black {
@@ -59,6 +61,7 @@ body {
 }
 
 .header__center-titles-text_white {
+    padding: 10px;
     color: #fff;
     font-size: 24px;
 
@@ -151,5 +154,11 @@ body {
     top: 0;
     left: -10px;
     color: #0397af;
+}
+
+.content__main-info {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
 }
 
