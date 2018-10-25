@@ -184,3 +184,43 @@ body {
     cursor: pointer;
 }
 
+/*GOODS*/
+
+.goods {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+
+.goods__item {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid gainsboro;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+.goods__item-title {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    color: #737373;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid green;
+    color: green;
+    padding: 10px;
+
+    cursor: pointer;
+}
