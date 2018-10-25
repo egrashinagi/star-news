@@ -224,3 +224,8 @@ body {
 
     cursor: pointer;
 }
+
+.button:active {
+    background-color: green;
+    color: white;
+}
